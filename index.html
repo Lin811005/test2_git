@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon_favicon.ico">
+    <title>飛利浦Saeco半自動雙研磨義式咖啡機(ESS5228/02)</title>
+    <meta property="og:image" content="./images/og-img.jpg">
+    <link href="./images/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./images/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./images/main.css">
+    <link data-title="模組化公版" rel="stylesheet" type="text/css" href="./images/PD_Layout.css">
+    <link data-title="模組化公版" rel="stylesheet" type="text/css" href="./images/registerCSS.css">
+    <link href="./images/all.css" rel="stylesheet">
+    <meta name="theme-color" content="#FFFFFF">
+
+  </head>
+  <body>
+      <!-- 粘人精 -->
+
+  <div class="fixed_right">
+    <a
+      href="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12453129&Area=search&mdiv=403&oid=1_1&cid=index&kw=%E5%8D%8A%E8%87%AA%E5%8B%95%E9%9B%99%E7%A0%94%E7%A3%A8%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F"><img
+        src="./images/fixed-button.png" alt="" class="scaled-image"></a>
+  </div>
+
+  <style>
+    @media screen and (min-width: 768px) {
+      .fixed_right {
+        right: 12px;
+        position: fixed;
+        bottom: 10px;
+        /* 調整按鈕距離底部的距離 */
+        z-index: 99;
+        top: 15%;
+      }
+
+      .scaled-image {
+        transform: scale(0.8);
+        /* 縮小圖片為原來的 90% */
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .fixed_right {
+        right: -6vw;
+        position: fixed;
+        bottom: 10px;
+        /* 調整按鈕距離底部的距離 */
+        z-index: 99;
+        top: 82%;
+      }
+
+      .scaled-image {
+        transform: scale(0.5);
+        /* 縮小圖片為原來的 70% */
+      }
+    }
+  </style>
+
+  <!-- 粘人精結束 -->
+    <div id="app">
+
+      <div class="loading">
+        <div class="loading-img"><img src="./images/icon_logo.svg" alt="logo"></div>
+        <div class="loading-dot"> 
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+      <div class="main">
+        <section class="header">
+          <div class="haeder-pc header-content"><a class="logo" href="#" onclick="mobileMenuControler('block1')" data-aos="fade-right" data-aos-delay="400"><img src="./images/icon_logo.svg" alt="header logo"></a>
+            <ul class="header-menu fixed" data-aos="fade-down" data-aos-delay="400">
+              <li><a class="header-menu-item" href="#special1"><span class="header-menu-text">黃金萃取法</span></a></li>
+              <li><a class="header-menu-item" href="#special2"><span class="header-menu-text">職人級設計</span></a></li>
+              <li><a class="header-menu-item" href="#special3"><span class="header-menu-text">獨立熱水口</span></a></li>
+              <li><a class="header-menu-item" href="#special4"><span class="header-menu-text">匠心工藝</span></a></li>
+            </ul>
+          </div>
+          <div class="haeder-mobile">
+            <div class="header-content"><a class="logo" href="#" onclick="mobileMenuControler('block1')" ><img src="./images/icon_logo.svg" alt="header logo"></a>
+              <div class="menu-toggle"> 
+                <div class="bar"></div>
+              </div>
+              <div class="mobile-menu-mask"></div>
+              <div class="mobile-menu">
+                <ul>
+                  <li>
+                    <div class="header-menu-item" onclick="mobileMenuControler('special1')"><span class="header-menu-text">黃金萃取法</span></div>
+                  </li>
+                  <li>
+                    <div class="header-menu-item" onclick="mobileMenuControler('special2')"><span class="header-menu-text">職人級設計</span></div>
+                  </li>
+                  <li>
+                    <div class="header-menu-item" onclick="mobileMenuControler('special3')"><span class="header-menu-text">獨立熱水口</span></div>
+                  </li>
+                  <li>
+                    <div class="header-menu-item" onclick="mobileMenuControler('special4')"><span class="header-menu-text">匠心工藝</span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="block1">
+          <div class="video-bg">
+            <video loading="lazy" class="lazy-load pc" autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-1-video">
+              <source data-src="./images/header_video_1_phone.mp4" type="video/mp4">
+            </video>
+            <video loading="lazy" class="lazy-load mobile" autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-1m-video">
+              <source data-src="./images/header_video_1_pc.mp4" type="video/mp4">
+            </video>
+            <div></div>
+            <div class="container column-center">
+              <div class="head1" data-aos="fade-down">專為Barista打造<br>雙研磨半自動義式咖啡機</div>
+              <div class="block1-tag" data-aos="fade-up">ESS5228/02</div>
+              <div class="block1-img"></div>
+              <ul class="spot-list" data-aos="fade-up">
+                <li><img class="spot-icon" src="./images/header_icon_1.svg" alt="雙加熱系統" data-aos="fade-down">
+                  <div class="spot-text">雙加熱系統</div>
+                  <div class="spot-caption">享受美味<br>不必等待</div>
+                </li>
+                <li><img class="spot-icon" src="./images/header_icon_2.svg" alt="雙豆槽x30段研磨" data-aos="fade-down">
+                  <div class="spot-text">雙豆槽x30段研磨</div>
+                  <div class="spot-caption">自由混搭<br>義式風味</div>
+                </li>
+                <li><img class="spot-icon" src="./images/header_icon_3.svg" alt="壓力顯示表" data-aos="fade-down">
+                  <div class="spot-text">壓力顯示表</div>
+                  <div class="spot-caption">精準萃取<br>最佳風味</div>
+                </li>
+              </ul>
+              <div class="cta-set pc" data-aos="fade-up"><a class="cta" href="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12453129&Area=search&mdiv=403&oid=1_1&cid=index&kw=半自動雙研磨義式咖啡機">立即訂購 </a>
+                <div class="t-c"><img class="award-img" src="./images/iF_design_logo_pc.png" alt=""><img class="award-img" src="./images/reddot_winner_logo_pc.png" alt=""></div>
+              </div>
+              <div class="cta-set mobile"><a class="cta" href="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12453129&Area=search&mdiv=403&oid=1_1&cid=index&kw=半自動雙研磨義式咖啡機">立即預購 </a>
+                <div class="t-c"><img class="award-img" src="./images/iF_design_logo_pc.png" alt=""><img class="award-img" src="./images/reddot_winner_logo_pc.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="block2">
+          <div class="container pt0">
+            <div class="row jc-c pc">
+              <div class="title"><img src="./images/title_pc.png" alt=""></div>
+            </div>
+            <div class="mobile t-c"> 
+              <div class="title"><img src="./images/title_phone.png" alt=""></div>
+            </div>
+            <div class="row jc-c">
+              <div class="countdown-wrap"> <span>預購倒數</span>
+                <div class="countdown"><span id="days">2</span></div><span>天</span>
+                <div class="countdown"><span id="hours">2</span></div><span>時</span>
+                <div class="countdown"><span id="minutes">2</span></div><span>分</span>
+                <div class="countdown"><span id="seconds">2</span></div><span>秒</span>
+              </div>
+            </div>
+            <div class="row jc-c pc">
+              <div class="col block2-col">
+                <div class="plug-in-video" loading="lazy" class="lazy-load" data-aos="fade-right">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/xoRBMmjyQCc?si=-l7_V3jRebQOHr7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="set-img" data-aos="fade-right" > <img src="./images/set-img.png" alt=""></div>
+              </div>
+              <div class="col block2-col block2-img-col">
+                <div class="t-r block2-product" data-aos="fade-left"><img src="./images/pc-product.png" alt=""></div>
+              </div>
+            </div>
+            <div class="row mobile center">
+              <div class="title"> <img src="./images/title2_phone.png" alt=""></div>
+            </div>
+            <div class="row nowrap mobile ali-end">
+              <div class="col block2-m-col">
+                <div class="plug-in-video-m" data-aos="fade-right">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/xoRBMmjyQCc?si=-l7_V3jRebQOHr7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col block2-m-col-s">
+                <div class="t-c" data-aos="zoom-in-up"><img class="date_pc" src="./images/date_phone.png" alt=""></div>
+              </div>
+            </div>
+            <div class="row mobile">
+              <div class="col">
+                <div class="t-r block2-product" data-aos="fade-left"><img src="./images/m-product.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div id="special1">
+          <div class="video-bg" id="block2v">
+            <video loading="lazy" class="lazy-load" muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-3-video">
+              <source data-src="./images/video_3.mp4" type="video/mp4">
+            </video>
+            <div class="container column-center center">
+              <div class="head1" data-aos="fade-down">黃金萃取法<br>MONZA EXTRACT</div>
+              <ul class="spot-list pc" data-aos="fade-up">
+                <li>
+                  <div class="spot-img"><img src="./images/Picture_3-1_pc.jpg" alt="PID控制器"></div><img class="spot-icon" src="./images/block_icon_3-1.svg" alt="PID控制器">
+                  <div class="spot-info">
+                    <div class="spot-text">PID控制器</div>
+                    <div class="spot-caption">瞬間加熱<br>穩定控溫</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="spot-img"><img src="./images/Picture_3-2_pc.jpg" alt="雙加熱系統"></div><img class="spot-icon" src="./images/block_icon_3-2.svg" alt="雙加熱系統">
+                  <div class="spot-info">
+                    <div class="spot-text">雙加熱系統</div>
+                    <div class="spot-caption">同時萃取+打奶泡</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="spot-img"><img src="./images/Picture_3-3_pc.jpg" alt="極致萃取"></div><img class="spot-icon" src="./images/block_icon_3-3.svg" alt="極致萃取">
+                  <div class="spot-info">
+                    <div class="spot-text">極致萃取</div>
+                    <div class="spot-caption">金黃色Crema</div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="spot-list mobile" data-aos="fade-down">
+                <li class="slide-btn active" onclick="changeSlide('1')"><img class="spot-icon" src="./images/block_icon_3-1.svg" alt="PID控制器">
+                  <div class="spot-text">PID控制器</div>
+                  <div class="spot-caption">瞬間加熱<br>穩定控溫</div>
+                </li>
+                <li class="slide-btn" onclick="changeSlide('2')"><img class="spot-icon" src="./images/block_icon_3-2.svg" alt="雙加熱系統">
+                  <div class="spot-text">雙加熱系統</div>
+                  <div class="spot-caption">同時萃取+打奶泡</div>
+                </li>
+                <li class="slide-btn" onclick="changeSlide('3')"><img class="spot-icon" src="./images/block_icon_3-3.svg" alt="極致萃取">
+                  <div class="spot-text">極致萃取</div>
+                  <div class="spot-caption">金黃色Crema</div>
+                </li>
+              </ul>
+              <div class="block3-spot-swiper mobile" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./images/Picture_3-1_pc.jpg" alt="PID控制器"></div>
+                  <div class="swiper-slide"><img src="./images/Picture_3-2_pc.jpg" alt="雙加熱系統"></div>
+                  <div class="swiper-slide"><img src="./images/Picture_3-3_pc.jpg" alt="極致萃取"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="block2-2"> 
+          <div class="container">
+            <div class="block3-swiper" data-aos="fade-down">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="p-r swiper-img"><img src="./images/Carousel_3-1-1_pc.jpg" alt=""><img class="fade" id="fadein" src="./images/Carousel_3-1-2_pc.png" alt=""></div>
+                  <div class="head2">PID控制器</div>
+                  <div class="text">結合瞬間加熱技術，每杯都是最佳溫度</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-img"><img src="./images/Carousel_3-2_pc.jpg" alt=""></div>
+                  <div class="head2">雙加熱系統</div>
+                  <div class="text">完美復刻 Barista極致體驗，在家享受專業級的創作</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-img">
+                    <img src="./images/Carousel_3-2_pc.jpg" alt="">
+                    <video loading="lazy" class="lazy-load" autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-3-2-video">
+                      <source data-src="./images/Carousel_3-2_pc.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="swiper-text">
+                    <div class="head2">極致萃取</div>
+                    <div class="text">以最高20Bar黃金壓力穩定萃取，溫和預浸完整釋放咖啡最佳風味</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="container container-wider m-c" id="special2">
+            <div class="row" >
+              <div class="col">
+                <div class="block2-2-text" data-aos="fade-right">
+                  <div><img class="award-img" src="./images/iF_design_logo_pc.png" alt=""><img class="award-img" src="./images/reddot_winner_logo_pc.png" alt=""></div>
+                  <div class="head3 en">DESIGN INSPIRATION</div>
+                  <div class="head2">專為咖啡迷而生</div>
+                  <div class="text">以Barista角度設計的<br>經典家用半自動義式咖啡機</div>
+                </div>
+              </div>
+              <div class="block2-2-img">
+                <div class="indicator-wrap" data-aos="fade-up">
+                  <div class="indicator-img"> <img src="./images/Picture_4_pc.png" alt="">
+                    <div class="indicator-text indicator-text-1"> <span>雙豆槽×30段研磨</span></div>
+                    <div class="indicator-text indicator-text-2"> <span>萃取壓力顯示表</span></div>
+                    <div class="indicator-text indicator-text-3"> <span>獨立熱水口</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="block5">
+          <div class="video-bg mod-2"> 
+            <video class="pc lazy-load" loading="lazy"  muted webkit-playsInline controlsList="nofullscreen" playsInline id="block-5-video">
+              <source data-src="./images/video_5.mp4" type="video/mp4">
+            </video>
+            <video class="mobile lazy-load" loading="lazy"  muted webkit-playsInline controlsList="nofullscreen" playsInline id="block-5m-video">
+              <source data-src="./images/video_5_phone.mp4" type="video/mp4">
+            </video>
+            <div class="container column-center container-wider">
+              <div class="head1" data-aos="fade-down">頂級觸控面板</div>
+              <div class="text" data-aos="fade-down">最沉靜式的指引，體驗極致義式工藝</div>
+            </div>
+          </div>
+        </div>
+        <section id="block6">
+          <div class="video-bg center">
+            <video loading="lazy" class="lazy-load" autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-6-video">
+              <source data-src="./images/video_6-1.mp4" type="video/mp4">
+            </video>
+            <div class="container column-center" data-aos="fade-down">
+              <div class="head1" data-aos="fade-down">雙豆槽×30段研磨</div>
+              <div class="text" data-aos="fade-down">可拆式雙豆槽設計，不鏽鋼錐形刀盤，細緻研磨</div>
+              <div class="block-space"></div>
+              <ul class="spot-list" >
+                <li><img class="spot-icon" src="./images/icon_block_icon_6-1-2.svg" alt="雙豆槽x30段研磨">
+                  <div class="spot-text">選擇左豆槽</div>
+                </li>
+                <li><img class="spot-icon" src="./images/icon_block_icon_6-1-1.svg" alt="雙加熱系統">
+                  <div class="spot-text">置中混合豆</div>
+                </li>
+                <li><img class="spot-icon" src="./images/icon_block_icon_6-1-3.svg" alt="壓力顯示表">
+                  <div class="spot-text">選擇右豆槽</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="block6-2">
+          <div class="indicator-wrap block6-2" data-aos="fade-up">
+            <div class="indicator-img">
+              <picture>
+                <source media="(max-width: 768px)" srcset="./images/Picture_6_m.png"><img src="./images/Picture_6_pc.png" alt="" data-aos="fade-down">
+              </picture>
+              <div class="indicator-text indicator-text-4"> <span>15-20檔 <span class="mobile-br"></span>適合香濃義式拿鐵</span></div>
+              <div class="indicator-text indicator-text-5"> <span>20-25檔 <span class="mobile-br"></span>適合清爽美式咖啡</span></div>
+            </div>
+          </div>
+        </section>
+        <section id="special3"></section>
+        <section id="block7">
+          <div class="container">
+            <div class="row"> 
+              <div class="col" data-aos="fade-right">
+                <div class="head1">獨立熱水出口</div>
+                <div class="text">一鍵即得美式咖啡，便捷你的生活</div>
+              </div>
+              <div class="col"> 
+                <div class="indicator-wrap" data-aos="fade-up">
+                  <div class="indicator-img"> 
+                    <picture>
+                      <source media="(max-width: 768px)" srcset="./images/Picture_7-1_phone.jpg"><img src="./images/Picture_7-1_pc.jpg" alt="" data-aos="fade-left">
+                    </picture>
+                    <picture>
+                      <source media="(max-width: 768px)" srcset="./images/Picture_7-2_phone.png"><img class="indicator-text indicator-text-7" src="./images/Picture_7-2_pc.png" alt="" data-aos="fade-down">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="block8">
+          <div class="container">
+            <div class="video-bg">
+              <video class="pc lazy-load" loading="lazy"  autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-8-video">
+                <source data-src="./images/video_8.mp4" type="video/mp4">
+              </video>
+              <video class="mobile lazy-load" loading="lazy"  autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-8m-video">
+                <source data-src="./images/video_8_phone.mp4" type="video/mp4">
+              </video>
+              <div class="container column-end" data-aos="fade-left">
+                <div class="head1">獨立蒸氣棒</div>
+                <div class="text">恆溫蒸汽系統，獨立加熱，360°可調節</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="special4"></section>
+        <section id="block9">
+          <div class="video-bg center">
+            <video loading="lazy" class="lazy-load" autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-9-video">
+              <source data-src="./images/video_9-0.mp4" type="video/mp4">
+            </video>
+            <div class="container column-center center">
+              <div class="head1" data-aos="fade-up">品質配件 匠心體驗<br>正統 Barista 義式工藝</div>
+            </div>
+          </div>
+        </section>
+        <section id="block9-2"> 
+          <div class="container"> 
+            <div class="row"> 
+              <div class="list-text mobile" data-aos="fade-down">
+                <div class="head2-1">水平恆定壓粉器</div>
+              </div>
+              <div class="list-img">
+                <video class="pc  lazy-load" loading="lazy"  autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-9-2-video">
+                  <source data-src="./images/video_9-1.mp4" type="video/mp4">
+                </video>
+                <video class="mobile  lazy-load" loading="lazy" autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-9-2m-video">
+                  <source data-src="./images/video_9-1m.mp4" type="video/mp4">
+                </video>
+                <div class="deco-img"><img src="./images/Accessories_9-1-1_pc.png" alt="" data-aos="fade-up"></div>
+              </div>
+              <div class="list-text pc" data-aos="fade-left">
+                <div class="head2">水平恆定壓粉器</div>
+                <div class="text-1">內建定壓彈簧，手感舒適，穩定每一次填壓力道</div>
+              </div>
+            </div>
+            <div class="row even"> 
+              <div class="list-text mobile" data-aos="fade-down">
+                <div class="head2">創新桌架手柄</div>
+              </div>
+              <div class="list-img">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="./images/Picture_9-2_phone.jpg"><img src="./images/Picture_9-2_pc.png" alt="" data-aos="fade-up">
+                </picture>
+                <div class="deco-img" data-size="w"><img src="./images/Accessories_9-2_pc.png" alt="" data-aos="fade-up"></div>
+              </div>
+              <div class="list-text pc" data-aos="fade-left">
+                <div class="head2">創新桌架手柄</div>
+                <div class="text">貼心按壓支架設計，無畏桌面受損</div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="list-text mobile" data-aos="fade-down">
+                <div class="head2-1">460ML感溫拉花缸</div>
+              </div>
+              <div class="list-img">
+                <video class="pc lazy-load" loading="lazy"  autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-9-3-video">
+                  <source data-src="./images/video_9-3.mp4" type="video/mp4">
+                </video>
+                <video class="mobile lazy-load" loading="lazy"  autoplay muted loop webkit-playsInline controlsList="nofullscreen" playsInline id="block-9-3m-video">
+                  <source data-src="./images/video_9-3m.mp4" type="video/mp4">
+                </video>
+                <div class="deco-img"> 
+                  <picture>
+                    <source media="(max-width: 768px)" srcset="./images/Accessories_9-3_m.png"><img src="./images/Accessories_9-3_pc.png" alt="" data-aos="fade-up">
+                  </picture>
+                </div>
+              </div>
+              <div class="list-text pc" data-aos="fade-left">
+                <div class="head2">460ML感溫拉花缸</div>
+                <div class="text-1">精準觀察奶泡打發溫度</div>
+              </div>
+            </div>
+            <div class="row even"> 
+              <div class="list-text mobile" data-aos="fade-down">
+                <div class="head2">58mm無底沖煮手柄</div>
+              </div>
+              <div class="list-img">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="./images/Picture_9-4_phone.jpg"><img src="./images/Picture_9-4_pc.png" alt="" data-aos="fade-up">
+                </picture>
+                <div class="deco-img" data-size="w">
+                  <picture>
+                    <source media="(max-width: 768px)" srcset="./images/Accessories_9-4_pc.png"><img src="./images/Accessories_9-4_pc.png" alt="" data-aos="fade-up">
+                  </picture>
+                </div>
+              </div>
+              <div class="list-text pc" data-aos="fade-left">
+                <div class="head2">58mm無底沖煮手柄</div>
+                <div class="text">精準觀察espresso萃取狀況</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="list-text mobile" data-aos="fade-down">
+                <div class="head2-1">58mm粉碗</div>
+              </div>
+              <div class="list-img">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="./images/Picture_9-5_phone.jpg"><img src="./images/Picture_9-5_pc.png" alt="" data-aos="fade-up">
+                </picture>
+              </div>
+              <div class="list-text pc" data-aos="fade-left">
+                <div class="head2">58mm粉碗</div>
+                <div class="text-1">均勻萃取，依照個人喜好及需求選擇</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="block10"> 
+          <div class="container"> 
+            <div class="row">
+              <div class="col" data-aos="fade-left">
+                <div class="head3 mobile t-c" data-aos="fade-right">Saeco 雙研磨半自動<br>義式咖啡機規格</div><img src="./images/Picture_10_pc.png" alt="">
+              </div>
+              <div class="col text">
+                <div class="head2 pc" data-aos="fade-right">Saeco半自動研磨義式咖啡機</div>
+                <div class="row">
+                  <div class="column">
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">型號</div>
+                      <div class="spec-caption">ESS5228/02</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">重量</div>
+                      <div class="spec-caption">10.76 Kg</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">水箱容量</div>
+                      <div class="spec-caption">2L</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">電壓頻率</div>
+                      <div class="spec-caption">110V/60Hz</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">材質</div>
+                      <div class="spec-caption">全機不鏽鋼</div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">尺寸</div>
+                      <div class="spec-caption">(L) 341mm x (W) 428mm x (H) 427mm</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">咖啡豆槽容量</div>
+                      <div class="spec-caption">250g</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">電線長度</div>
+                      <div class="spec-caption">100cm</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">消耗功率</div>
+                      <div class="spec-caption">1,550W</div>
+                    </div>
+                    <div class="spec-item" data-aos="fade-down">
+                      <div class="spec-title">保固</div>
+                      <div class="spec-caption">全球保固兩年</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="block10-2">
+          <div class="Area Area960 product_box">	  	
+            <div class="PD_layout" data-pd-col-pc="4" data-pd-col-phone="2" data-pd-h3="2" data-pd-h4="1" >
+            <div class="lbtclass" id="lbtclass_B150">
+            <div class="btclass" id="bt_B_000_150">
+            <ul class="PD_wrapper">
+            
+            <!-- -----------------------------------------------【】入稿貼語法從這邊開始----------------------------------------------- -->
+            
+            <li class="PD_slide js-PD_id" data-id=""><div class="PD"><a class="js-PD_url" data-title="商品連結" data-urlpc="" data-urlphone="" href="" target="_blank"><div class="PD_img"><img class="lazy js-PD_img" data-title="商品圖" src="images/img_8013804.jpg" alt="" width="230" height="230" border="0"></div><div class="PD_into"><h3><span class="js-PD_txt3" data-title="特標">破盤下殺現折2901</span><i></i></h3><h4><b class="js-PD_txt1" data-title="品牌">【PHILIPS】</b><span class="js-PD_txt2" data-title="品名">全自動義式咖啡機(EP2220)</span><i></i></h4><p><del class="js-PD_del" data-title="原價">34,900</del><b class="js-PD_priceTxt" data-title="特價標"></b><span class="money">$</span><span class="Price js-PD_price" data-title="特價">11,900</span><small class="js-PD_unit" data-title="單位"></small></p></div></a></div></li>
+            
+            <li class="PD_slide js-PD_id" data-id=""><div class="PD"><a class="js-PD_url" data-title="商品連結" data-urlpc="" data-urlphone="" href="" target="_blank"><div class="PD_img"><img class="lazy js-PD_img" data-title="商品圖" src="images/img_8038624.jpg" alt="" width="230" height="230" border="0"></div><div class="PD_into"><h3><span class="js-PD_txt3" data-title="特標">破盤下殺現折2901</span><i></i></h3><h4><b class="js-PD_txt1" data-title="品牌">【PHILIPS】</b><span class="js-PD_txt2" data-title="品名">全自動義式咖啡機 香檳金(EP3246/84)</span><i></i></h4><p><del class="js-PD_del" data-title="原價">36,900</del><b class="js-PD_priceTxt" data-title="特價標"></b><span class="money">$</span><span class="Price js-PD_price" data-title="特價">24,900</span><small class="js-PD_unit" data-title="單位"></small></p></div></a></div></li>
+
+            <li class="PD_slide js-PD_id" data-id=""><div class="PD"><a class="js-PD_url" data-title="商品連結" data-urlpc="" data-urlphone="" href="" target="_blank"><div class="PD_img"><img class="lazy js-PD_img" data-title="商品圖" src="images/img_11292806.jpg" alt="" width="230" height="230" border="0"></div><div class="PD_into"><h3><span class="js-PD_txt3" data-title="特標">破盤下殺現折2901</span><i></i></h3><h4><b class="js-PD_txt1" data-title="品牌">【PHILIPS】</b><span class="js-PD_txt2" data-title="品名">LatteGo★全自動義式咖啡機(EP5447/94)</span><i></i></h4><p><del class="js-PD_del" data-title="原價">46,900</del><b class="js-PD_priceTxt" data-title="特價標"></b><span class="money">$</span><span class="Price js-PD_price" data-title="特價">36,900</span><small class="js-PD_unit" data-title="單位"></small></p></div></a></div></li>
+            
+            <li class="PD_slide js-PD_id" data-id=""><div class="PD"><a class="js-PD_url" data-title="商品連結" data-urlpc="" data-urlphone="" href="" target="_blank"><div class="PD_img"><img class="lazy js-PD_img" data-title="商品圖" src="images/img_6574363.jpg" alt="" width="230" height="230" border="0"></div><div class="PD_into"><h3><span class="js-PD_txt3" data-title="特標">破盤下殺現折2901</span><i></i></h3><h4><b class="js-PD_txt1" data-title="品牌">【PHILIPS】</b><span class="js-PD_txt2" data-title="品名">2+全自動美式研磨咖啡機(HD7762)</span><i></i></h4><p><del class="js-PD_del" data-title="原價">8,990</del><b class="js-PD_priceTxt" data-title="特價標"></b><span class="money">$</span><span class="Price js-PD_price" data-title="特價">5,490</span><small class="js-PD_unit" data-title="單位"></small></p></div></a></div></li>
+            
+            <!-- -----------------------------------------------【】入稿貼語法到這邊結束----------------------------------------------- -->
+            
+            </ul>
+            </div>
+            </div>
+            </div>
+            </div>	
+        </section>
+        <section class="bg" id="block11">
+          <div class="container"> 
+            <div class="row center">
+              <div class="col-text" data-aos="fade-left">
+                <div class="head1 t-l pc">全球兩年保固，專人到府安裝</div>
+                <div class="head1 t-l mobile">全球兩年保固<br>專人到府安裝</div>
+                <div class="text-1">飛利浦為產品提供自購買日起兩年的保固服務，在這兩年保固期限內，如有任何因材料不良及製造品質所造成的瑕疵，飛利浦將提供免費的產品修復。</div>
+              </div>
+              <div class="col-img" data-aos="fade-right"><img src="./images/Picture_11-1_pc.png" alt=""></div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-light" id="block11-2">
+          <div class="container"> 
+            <div class="row center">
+              <div class="col-text" data-aos="fade-right">
+                <div class="head1 t-l">關於飛利浦 Saeco</div>
+                <div class="text-1">Saeco 創立於1981年義大利，是世界上第一台全自動義式啡機發明品牌並獲得「義大利專業感官分析機構」義大利行家品味認證 (ItalianTasters Certification)。飛利浦於 2009 年將 Saeco 品牌納入企業體系，藉由飛利浦的創新科技與 Saeco 的專業技術，致力於帶給人們更好的咖啡體驗。</div>
+              </div>
+              <div class="col-img" data-aos="fade-down">
+                <div class="about-img-wrap">
+                  <div class="about-img" data-order="1"><img src="./images/Picture_11-2-1_pc.jpg" alt=""></div>
+                  <div class="about-img" data-order="2"><img src="./images/Picture_11-2-2_pc.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo"> <a href="https://www.momoshop.com.tw/category/LgrpCategory.jsp?l_code=2127100000"><img src="./images/Picture_BTN_11-3_pc.png" alt="footer logo"></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./images/aos.js"></script>
+    <script src="./images/swiper-bundle.min.js"></script>
+    <script src="./images/jquery-3.6.3.min.js"></script>
+    <script src="./images/index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy-load"));
+
+          if ("IntersectionObserver" in window) {
+              let lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
+                  entries.forEach(function(entry) {
+                      if (entry.isIntersecting) {
+                          var videoElement = entry.target;
+                          var sourceElement = videoElement.querySelector("source");
+                          if (sourceElement && sourceElement.dataset.src) {
+                              sourceElement.src = sourceElement.dataset.src;
+                          }
+                          videoElement.load();
+                          videoElement.addEventListener('canplay', function() {
+                              if (entry.isIntersecting) {
+                                  videoElement.play().catch(e => console.error("r: ", e));
+                              }
+                          });
+
+                          lazyVideoObserver.unobserve(videoElement);
+                      }
+                  });
+              });
+
+              lazyVideos.forEach(function(video) {
+                  lazyVideoObserver.observe(video);
+              });
+          } else {
+              lazyVideos.forEach(function(video) {
+                  var sourceElement = video.querySelector("source");
+                  if (sourceElement && sourceElement.dataset.src) {
+                      sourceElement.src = sourceElement.dataset.src;
+                  }
+                  video.load();
+              });
+          }
+      });
+
+    </script>
+
+     <!--輪播套件-->
+
+  <script language="javascript" type="text/javascript" src="https://image.momoshop.com.tw/ecm/img/online/10/007/03/532/images/swiper.min.js?t=1666343259209"></script> 
+  <script charset="utf-8" language="javascript" type="text/javascript" src="https://image.momoshop.com.tw/ecm/js/jquery-1.12.4.js?t=20201119001"></script> 
+  <script charset="utf-8" data-title="延遲載圖G0.1.2" language="javascript" type="text/javascript" src="https://image.momoshop.com.tw/ecm/js/edm/lazyload.js?t=202011170001"></script> 
+  <script src="images/main.js?v=026"></script>
+	
+<!--延遲載圖--> 
+<script charset="utf-8" data-title="延遲載圖" language="javascript" type="text/javascript" src="lazyload"></script> 
+<script>
+  /*延遲載圖*/
+  var lazyLoadInstance = new LazyLoad({
+      elements_selector: ".articleList .lazy", //物件
+      //threshold: 300, //預載量 預設300
+  });
+  window.addEventListener('load',function(){
+    lazyLoadInstance.update();
+  });
+</script>
+
+  <script>
+
+
+
+    $(function () {
+
+      $("img.lazy").lazyload();
+
+    });
+
+
+
+    var momoDmJsImgUrlSrc;
+
+    var momoDmJsImgUrl = $('.momoStyle_Area7 .infoImg1-1').attr('src');
+
+    const regex = /products_list/i
+
+    let momoDmJsImgUrlIndex = momoDmJsImgUrl.search(regex);
+
+    momoDmJsImgUrlSrc = momoDmJsImgUrl.slice(0, momoDmJsImgUrlIndex)
+
+
+
+    ///////////////////////////
+
+    //**圖片路徑修改**//
+
+    
+
+    //如果有"產品比較"選取下拉項目時有掉圖(.momoStyle_Area7及.momoStyle_Area8)，請幫忙更改謝謝。已先用正則表達式抓取路徑中相對字串，但如果還是無法顯示圖片，再請幫忙!!謝謝
+
+    // (說明如下，如果正常可不用修改)
+
+    //例如<img class="lazy" data-original = 'momoABC/images/products_list_1-EP5447.png' >
+
+    ////變數需改為 momoDmJsImgUrlSrc = 'momoABC/images';
+
+    //////////////////////////
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+  </script>
+
+  <script>
+  var close_3M = $(".close")
+  var BN_POPUP = $(".BN_POPUP")
+	 
+  function off0(){ 
+  
+  BN_POPUP.addClass("off0") 
+	  
+  }
+
+  function timeout_3M(){
+	  
+  BN_POPUP.fadeOut(800,);  
+  
+  } 
+  setTimeout(timeout_3M,3000);
+	  
+	  
+	  
+  </script>
+  </body>
+</html>
